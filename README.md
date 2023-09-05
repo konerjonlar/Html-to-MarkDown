@@ -39,7 +39,7 @@ After saving the file run the following command:
 python html-to-markdown.py
 
 ```
-### Örnek
+### Örnek / Example
 
 HTML dosyası (html-code.txt) içeriği:
 
