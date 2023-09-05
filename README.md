@@ -58,9 +58,9 @@ HTML file (html-code.txt) content:
 python html-to-markdown.py
 ```
 
-Markdown dosyası (html-to-markdown.txt) çıktısı:
+Markdown dosyası (html-to-markdown.md) çıktısı:
 
-Markdown file (html-to-markdown.txt) content:
+Markdown file (html-to-markdown.md) content:
 
 ```markdown
 # Hello, World!
