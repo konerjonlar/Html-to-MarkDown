@@ -12,6 +12,6 @@ soup = BeautifulSoup(icerik, 'html.parser')
 markdown_text = markdownify.markdownify(str(soup))
 
 # Dosyayı aç ve çıktıyı dosyaya yaz
-with open("html-to-markdown.txt", "w", encoding="utf-8") as dosya:
+with open("html-to-markdown.md", "w", encoding="utf-8") as dosya:
     dosya.write(markdown_text)
 
