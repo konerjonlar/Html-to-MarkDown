@@ -21,7 +21,7 @@ Open terminal in the folder where we will clone the project. Then enter the foll
 git clone https://github.com/konerjonlar/Html-to-MarkDown
 ```
 
-Bulunduğunuz dizie **Html-to-MarkDown** dosyası eklenmiş olmalı. 
+Bulunduğunuz dizinde **Html-to-MarkDown** dosyası eklenmiş olmalı. 
 
 The **Html-to-MarkDown** file must have been added to the directory you are in. 
 
