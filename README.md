@@ -5,7 +5,35 @@ Bu araç, html-code.txt dosyasındaki HTML kodlarını markdown formatına dön�
 
 This is a tool that converts HTML codes in the html-code.txt file to markdown format. The converted data is saved in the html-to-markdown.txt file.
 
+## Klonlama / Clone 
+
+Git kurulumu: 
+
+Git installation: 
+
+- [Windows/Linux/MAc](https://www.atlassian.com/git/tutorials/install-git)
+  
+Projeyi klonlayacağımız klasörde terminali açın. Ardından aşağıdaki komutu terminale girin.
+
+Open terminal in the folder where we will clone the project. Then enter the following command in terminal.
+
+```bash
+git clone https://github.com/konerjonlar/Html-to-MarkDown
+```
+
+Bulunduğunuz dizie **Html-to-MarkDown** dosyası eklenmiş olmalı. 
+
+The **Html-to-MarkDown** file must have been added to the directory you are in. 
+
 ## Kurulum / Setup
+
+Proje klasörü içerisine cd(change directory) komutu ile geçiş yapalım. 
+
+Let's switch to the project folder with the cd (change directory) command. 
+
+```bash
+cd Html-to-MarkDown
+``` 
 
 Öncelikle sanal bir ortam oluşturun ve etkinleştirin:
 
@@ -13,8 +41,8 @@ First create and activate a virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate  # Windows
+source venv/bin/activate  # [Linux/Mac](https://www.sinanerdinc.com/python-virtualenv-kullanimi)
+venv\Scripts\activate  # [Windows](https://medium.com/@sonsuz_dongu_youtube/windows-ortam%C4%B1na-python-ve-virtualenv-kurma-209f0257a564)
 ``` 
 
 Gerekli Python bağımlılıklarını yüklemek için aşağıdaki komutu kullanın:
