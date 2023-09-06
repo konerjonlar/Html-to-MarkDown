@@ -11,7 +11,7 @@ Git kurulumu:
 
 Git installation: 
 
-- [Windows/Linux/MAc](https://www.atlassian.com/git/tutorials/install-git)
+- [Windows/ Linux/ Mac](https://www.atlassian.com/git/tutorials/install-git)
   
 Projeyi klonlayacağımız klasörde terminali açın. Ardından aşağıdaki komutu terminale girin.
 
