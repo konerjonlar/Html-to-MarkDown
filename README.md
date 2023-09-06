@@ -41,9 +41,29 @@ First create and activate a virtual environment:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # [Linux/Mac](https://www.sinanerdinc.com/python-virtualenv-kullanimi)
-venv\Scripts\activate  # [Windows](https://medium.com/@sonsuz_dongu_youtube/windows-ortam%C4%B1na-python-ve-virtualenv-kurma-209f0257a564)
-``` 
+```
+Diğer başka kullanımda da sanal ortam gizli klasör olarak projeye dahil edilebilir. Klasör isminin temelde önemi olmasa da Python'da topluluk izinden gitmek önemli bir husustur. 
+
+In another use, the virtual environment can be included in the project as a hidden folder. While the folder name is not fundamentally important, following the community footsteps is an important consideration in Python. 
+
+```bash
+python -m venv v ".env"
+```
+
+Etkinleştirme:
+Activation:
+
+[Linux/Mac](https://www.sinanerdinc.com/python-virtualenv-kullanimi) 
+
+```bash
+source venv/bin/activate 
+```
+
+[Windows](https://medium.com/@sonsuz_dongu_youtube/windows-ortam%C4%B1na-python-ve-virtualenv-kurma-209f0257a564) 
+
+```bash
+venv\Scripts\activate
+```
 
 Gerekli Python bağımlılıklarını yüklemek için aşağıdaki komutu kullanın:
 
